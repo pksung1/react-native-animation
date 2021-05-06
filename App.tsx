@@ -37,6 +37,7 @@ const App: () => Node = () => {
         <Drawer.Screen name="TranslateScreen" component={Screens.TranslateScreen}/>
         <Drawer.Screen name="SizeScreen" component={Screens.SizeScreen}/>
         <Drawer.Screen name="EasingScreen" component={Screens.EasingScreen}/>
+        <Drawer.Screen name="SharedElementExample" component={Screens.SharedElementExample} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
